@@ -56,7 +56,7 @@ def init_navigator():
 
 def get_data():
     #Get input data as list of strings
-    with open('data_french.txt') as f:
+    with open('data/data_french.txt') as f:
         lines = f.readlines()
 
     #clean the list : remove \n
